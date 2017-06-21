@@ -1,13 +1,4 @@
-p "hello world"
-p "yea baby"
-p "how you doing"
-p "1"
-p "2"
-p "3"
-p "4"
-p "5"
-p "6"
-p "7"
-p "8"
-p "9"
-p "10"
+100.times do |n| 
+ n += 1
+ puts n
+end
