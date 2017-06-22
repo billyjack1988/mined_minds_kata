@@ -1,7 +1,7 @@
 
-counter = 0
+counter = 1
 
-while counter < 10 do 
-	puts "counter vaule is: #{counter}\n"
-	counter += 1
+while counter < 100 do 
+	puts "MinedMinds: #{counter}\n"
+	counter += 10
 end 
