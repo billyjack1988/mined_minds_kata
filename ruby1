@@ -1,0 +1,6 @@
+puts "there are #{100} cars available."
+puts "there are only #{30} drivers available."
+puts "ther will be #{cars - drivers} empty cars today."
+puts "we can transport #{cars_driven * space_in_a_car}people today."
+puts "we have #{90} to carpool today."
+puts "we need to put about #{passengers / cars_driven} in each car."
