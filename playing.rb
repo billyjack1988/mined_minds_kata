@@ -1,3 +1,7 @@
-puts "please enter your age: "
-age = gets.chomp
-puts "\n\nyou entered: #{age}"
+
+counter = 0
+
+while counter < 10 do 
+	puts "counter vaule is: #{counter}\n"
+	counter += 1
+end 
