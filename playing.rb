@@ -1,7 +1,8 @@
 
-counter = 1
-
-while counter < 100 do 
-	puts "MinedMinds: #{counter}\n"
-	counter += 10
-end 
+for n in 1..100
+if n % 3 == 0 
+	puts "Mined"
+else
+	puts " #{n} "
+end
+end
