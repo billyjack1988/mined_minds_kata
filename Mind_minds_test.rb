@@ -9,7 +9,9 @@ class Kata_test < Minitest::Test
 		assert_equal("minds",num(5))
 	end
 	def test_3
-		assert_equal("minedminds", num(3 and 5))
-		
+		assert_equal("minedminds", num(15))
+	end
+	def test_4
+		assert_equal(4, num(4))
 	end
 end
