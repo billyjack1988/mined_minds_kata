@@ -1,13 +1,12 @@
 require "minitest/autorun"
-require_relative "Add.rb"
+require_relative "submath.rb"
 
 class Addition_test < Minitest::Test 
-	def test_5_plus_5
-	assert_equal(10, add(5,5))	
+	def subtract
+	assert_equal(90, subtract(10,100))	
 	end
 end
 		
  
-
 
 
