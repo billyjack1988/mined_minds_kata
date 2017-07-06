@@ -14,4 +14,5 @@ class Kata_test < Minitest::Test
 	def test_4
 		assert_equal(4, num(4))
 	end
+	def 
 end
