@@ -18,4 +18,8 @@ class MinedMinds_test < Minitest::Test
 	def test_for_3
 		assert_equal("Mined", num[2])
 	end
+
+	def test_for_5
+		assert_equal("Minds", num[4])
+	end
 end
