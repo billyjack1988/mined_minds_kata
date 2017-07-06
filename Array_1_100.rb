@@ -1,12 +1,11 @@
-x = [1..100]
-def num(x)
-		if x % 3 == 0 &&  x % 5 == 0
-			"MinedMinds"
-		elsif x % 3 == 0
-		 	"Mined"
-		elsif x % 5 == 0
-		 	"Minds"
-		else
-		 	return (x)
+
+def num()
+		x = [*1..100]
+		x.each_with_index do |value, index|
+			 "value #{value}"
+			 "index #{index}"
+		if value == 3
+			x[2] = "Mined"	
+		end
 	end
 end
