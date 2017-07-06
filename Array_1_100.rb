@@ -1,11 +1,11 @@
-class FizzBuzz
+class MinedMinds 
 	def print number 
 		if number % 15 == 0
-			"FizzBuzz"
+			"MinedMinds"
 		elsif number % 3 == 0
-			"Fizz"
+			"Mined"
 		elsif number % 5 == 0
-			"Buzz"
+			"Minds"
 		else
 			number .to_s
 		end 
