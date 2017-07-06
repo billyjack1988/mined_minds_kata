@@ -18,4 +18,7 @@ class MinedMinds_test < Minitest::Test
 	def test_Mined_Minds
 		assert_equal("MinedMinds", num(15))
 	end
+
+	def test_return_numbers
+		assert_respond_to(num, return(num ))
 end
