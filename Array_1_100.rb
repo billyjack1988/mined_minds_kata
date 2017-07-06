@@ -1,11 +1,11 @@
 x = [1..100]
 def num(x)
 		if x % 3 == 0 &&  x % 5 == 0
-			"minedminds"
+			"MinedMinds"
 		elsif x % 3 == 0
-		 	"mined"
+		 	"Mined"
 		elsif x % 5 == 0
-		 	"minds"
+		 	"Minds"
 		else
 		 	return (x)
 	end
