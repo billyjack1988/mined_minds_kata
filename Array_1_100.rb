@@ -8,6 +8,8 @@ def num()
 			x[2] = "Mined"
 		elsif value == 5
 			x[4] = "Minds"
+		elsif value == 5 * 3
+			x[14] = "MinedMinds"
 		end
 	end
 end
