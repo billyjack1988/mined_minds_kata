@@ -26,4 +26,8 @@ class MinedMinds_test < Minitest::Test
 	def test_for_15
 		assert_equal('MinedMinds', num[14])
 	end
+
+	def test_for_other_number
+		assert_equal(69, num[68])
+	end
 end
