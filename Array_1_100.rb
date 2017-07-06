@@ -5,7 +5,9 @@ def num()
 			 "value #{value}"
 			 "index #{index}"
 		if value == 3
-			x[2] = "Mined"	
+			x[2] = "Mined"
+		elsif value == 5
+			x[4] = "Minds"
 		end
 	end
 end
