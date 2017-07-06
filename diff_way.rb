@@ -1,3 +1,4 @@
+x = 0
 for x in 1..100
 	if x % 3 == 0 
 	p "mined"

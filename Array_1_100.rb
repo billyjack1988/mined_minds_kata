@@ -1,13 +1,12 @@
-class MinedMinds 
-	def print number 
-		if number % 15 == 0
-			"MinedMinds"
-		elsif number % 3 == 0
-			"Mined"
-		elsif number % 5 == 0
-			"Minds"
+x = [1..100]
+def num(x)
+		if x % 3 == 0 &&  x % 5 == 0
+			"minedminds"
+		elsif x % 3 == 0
+		 	"mined"
+		elsif x % 5 == 0
+		 	"minds"
 		else
-			number .to_s
-		end 
-	end 
-end 
+		 	return (x)
+	end
+end
