@@ -16,15 +16,15 @@ class MinedMinds_test < Minitest::Test
 	end
 
 	def test_for_3
-		assert_equal("Mined", multiple[%3])
+		assert_equal("Mined", num[3])
 	end
 
 	def test_for_5
-		assert_equal("Minds", multiple[%5])
+		assert_equal("Minds", num[5])
 	end
 
 	def test_for_15
-		assert_equal('MinedMinds', multiple[%15])
+		assert_equal('MinedMinds', num[15])
 	end
 
 	def test_for_other_number
@@ -37,5 +37,5 @@ class MinedMinds_test < Minitest::Test
 
 	def test_for_0_to_fail
 		assert_equal(0, num[0],"No this number")
-		end 
+	end 
 end

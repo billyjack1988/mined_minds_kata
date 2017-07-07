@@ -1,15 +1,16 @@
 
-def num()
-		x = [*1..100]
-		x.each_with_index do |value, index|
-			 "value #{value}"
-			 "index #{index}"
-		if value == % 3
-			x[%3] = "Mined"
-		elsif value == % 5
-			x[%5 + "Minds"
-		elsif value == % 15
-			x[%15] = "MinedMinds"
+def num
+		x = Array(1..100)
+		x.each_with_index do |value, index|	
+		if value % 15 == 0
+			x[value] = "MinedMinds"
+		elsif value % 3 == 0
+			x[value] = "Mined"
+		elsif value % 5 == 0
+			x[value] = "Minds"
 		end
+		p "#{value}"
 	end
 end
+p num
+
