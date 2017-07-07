@@ -34,4 +34,8 @@ class MinedMinds_test < Minitest::Test
 	def test_for_more_numbers
 		assert_equal(20, num[19])
 	end
+
+	def test_for_0_to_fail
+		assert_equal(0, num[0],"No this number")
+		end 
 end
