@@ -16,15 +16,15 @@ class MinedMinds_test < Minitest::Test
 	end
 
 	def test_for_3
-		assert_equal("Mined", num[2])
+		assert_equal("Mined", multiple[%3])
 	end
 
 	def test_for_5
-		assert_equal("Minds", num[4])
+		assert_equal("Minds", multiple[%5])
 	end
 
 	def test_for_15
-		assert_equal('MinedMinds', num[14])
+		assert_equal('MinedMinds', multiple[%15])
 	end
 
 	def test_for_other_number
