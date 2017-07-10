@@ -16,27 +16,35 @@ class MinedMinds_test < Minitest::Test
 	end
 
 	def test_for_3
-		assert_equal("Mined", num[3])
+		assert_equal("Mined", num[2])
 	end
 
 	def test_for_Minds
-		assert_equal("Mined", num[9])
+		assert_equal("Mined", num[8])
 	end
 
 	def test_for_5
-		assert_equal("Minds", num[5])
+		assert_equal("Minds", num[4])
+	end
+
+	def test_for_Minds
+		assert_equal("Minds", num[9])
 	end
 
 	def test_for_15
-		assert_equal('MinedMinds', num[15])
+		assert_equal("MinedMinds", num[14])
+	end
+
+	def test_for_MinedMinds
+		assert_equal("MinedMinds", num[29])
 	end
 
 	def test_for_other_number
-		assert_equal(69, num[68])
+		assert_equal("Mined", num[68])
 	end
 
 	def test_for_more_numbers
-		assert_equal(20, num[19])
+		assert_equal(22, num[21])
 	end
 
 	 def test_for_0_to_fail
