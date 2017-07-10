@@ -9,7 +9,6 @@ def num
 		elsif value % 5 == 0
 			x[value] = "Minds"
 		end
-		p "#{value}"
 	end
 end
 p num
